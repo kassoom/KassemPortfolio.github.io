@@ -1,0 +1,13 @@
+.impact-strip{max-width:1176px;margin:0 auto;padding:46px 32px;display:grid;grid-template-columns:repeat(4,1fr);gap:18px;border-bottom:1px solid var(--line)}
+.impact-strip div{padding:6px 18px;border-left:2px solid var(--mint)}
+.impact-strip strong{display:block;font-size:2.4rem;line-height:1;letter-spacing:-.08em;color:var(--teal)}
+.impact-strip span{display:block;margin-top:10px;color:var(--muted);font-size:.72rem;line-height:1.45}
+.experience-section{max-width:1176px}
+.experience-list{border-top:1px solid var(--line)}
+.experience-list article{display:grid;grid-template-columns:230px 1fr;gap:40px;padding:30px 0;border-bottom:1px solid var(--line)}
+.experience-meta{font:500 .68rem "DM Mono",monospace;color:var(--muted);text-transform:uppercase;line-height:1.8}
+.experience-meta b{display:block;color:var(--teal);font-size:.78rem}
+.experience-list h3{font-size:1.25rem;letter-spacing:-.04em;margin:0 0 9px}
+.experience-list p{margin:0;color:var(--muted);font-size:.84rem;max-width:690px}
+@media(max-width:900px){.impact-strip{grid-template-columns:repeat(2,1fr);padding:36px 24px}.experience-list article{grid-template-columns:1fr;gap:8px}}
+@media(max-width:560px){.impact-strip{grid-template-columns:1fr;gap:8px}.impact-strip div{padding:10px 16px}}

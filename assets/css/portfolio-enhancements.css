@@ -11,3 +11,7 @@
 .experience-list p{margin:0;color:var(--muted);font-size:.84rem;max-width:690px}
 @media(max-width:900px){.impact-strip{grid-template-columns:repeat(2,1fr);padding:36px 24px}.experience-list article{grid-template-columns:1fr;gap:8px}}
 @media(max-width:560px){.impact-strip{grid-template-columns:1fr;gap:8px}.impact-strip div{padding:10px 16px}}
+/* Keep mobile links clean: decorative arrow glyphs add visual noise on narrow screens. */
+.nav-cta span,.hero-actions .button span,.text-link span,.float-chip b{display:none!important}
+.card-bottom a{font-size:0;min-width:44px;text-align:center}
+.card-bottom a::after{content:"View";font-size:.68rem;font-family:"DM Mono",monospace;letter-spacing:.04em}
